@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+.secondlast{
+    // display: block;
+   clear: both;
+    padding-left: 93px;
+    margin-top: 88px;
+    font-family: Nunito;
+}
+.line{
+    border-bottom: 3px solid #000000;
+    margin: 0 auto;
+    width: 102px;
+    font-size: 65px;
+    font-weight: 300;
+    padding-bottom: 20px;
+}
+.leftimage{
+    margin-top: 94px;
+    display: inline-block;
+}
+.questions{
+margin-top: 126px;
+margin-right: 100px;
+    float: right;
+    width: 561px;
+    .title1{
+        font-size: 14px;
+        font-weight: bold;
+    }
+    p{
+        color: #3e3e3e;
+        font-size: 13px;
+        font-weight: 300;
+    }
+    hr{
+        margin-top: 20px;
+        color: #e8e8e8;
+        border-width: 0.1px;
+        width: 520px;
+        margin-left: 25px;
+    }
+    .horizontal{
+        margin-left: 0px;
+    }
+   
+    ::ng-deep.head>.mat-expansion-indicator:after{
+        color:#2783FF;
+        width: 4px;
+        height: 4px;
+    }
+}
+
