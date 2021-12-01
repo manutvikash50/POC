@@ -10,6 +10,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FeaturesComponent } from './component/home/features/features.component';
 import { MaterialModule } from './material/material.module';
 import { FaqComponent } from './component/home/faq/faq.component';
+import { TestimonialComponent } from './component/home/testimonial/testimonial.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { FaqComponent } from './component/home/faq/faq.component';
     RegistrationComponent,
     HomeComponent,
     FeaturesComponent,
-    FaqComponent
+    FaqComponent,
+    TestimonialComponent
   ],
   imports: [
     BrowserModule,
